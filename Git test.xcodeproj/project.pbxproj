@@ -54,8 +54,8 @@
 		AA61C234190C22D50023BB98 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		AA61C236190C22D50023BB98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA61C238190C22D50023BB98 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
-		AA61C242190C27A70023BB98 /* MMNGitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNGitTest.h; sourceTree = "<group>"; };
-		AA61C243190C27A70023BB98 /* MMNGitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNGitTest.m; sourceTree = "<group>"; };
+		AA61C242190C27A70023BB98 /* MMNGitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMNGitTest.h; path = ../MMNGitTest.h; sourceTree = "<group>"; };
+		AA61C243190C27A70023BB98 /* MMNGitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMNGitTest.m; path = ../MMNGitTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		AA61C201190C22D40023BB98 = {
 			isa = PBXGroup;
 			children = (
-				AA61C242190C27A70023BB98 /* MMNGitTest.h */,
-				AA61C243190C27A70023BB98 /* MMNGitTest.m */,
 				AA61C213190C22D50023BB98 /* Git test */,
 				AA61C232190C22D50023BB98 /* Git testTests */,
 				AA61C20C190C22D50023BB98 /* Frameworks */,
@@ -117,6 +115,8 @@
 		AA61C213190C22D50023BB98 /* Git test */ = {
 			isa = PBXGroup;
 			children = (
+				AA61C242190C27A70023BB98 /* MMNGitTest.h */,
+				AA61C243190C27A70023BB98 /* MMNGitTest.m */,
 				AA61C21C190C22D50023BB98 /* MMNAppDelegate.h */,
 				AA61C21D190C22D50023BB98 /* MMNAppDelegate.m */,
 				AA61C21F190C22D50023BB98 /* Main.storyboard */,
