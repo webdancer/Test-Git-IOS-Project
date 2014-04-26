@@ -21,6 +21,7 @@
 		AA61C22F190C22D50023BB98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA61C211190C22D50023BB98 /* UIKit.framework */; };
 		AA61C237190C22D50023BB98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA61C235190C22D50023BB98 /* InfoPlist.strings */; };
 		AA61C239190C22D50023BB98 /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA61C238190C22D50023BB98 /* Git_testTests.m */; };
+		AA61C244190C27A70023BB98 /* MMNGitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AA61C243190C27A70023BB98 /* MMNGitTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		AA61C234190C22D50023BB98 /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		AA61C236190C22D50023BB98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA61C238190C22D50023BB98 /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		AA61C242190C27A70023BB98 /* MMNGitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMNGitTest.h; sourceTree = "<group>"; };
+		AA61C243190C27A70023BB98 /* MMNGitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMNGitTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		AA61C201190C22D40023BB98 = {
 			isa = PBXGroup;
 			children = (
+				AA61C242190C27A70023BB98 /* MMNGitTest.h */,
+				AA61C243190C27A70023BB98 /* MMNGitTest.m */,
 				AA61C213190C22D50023BB98 /* Git test */,
 				AA61C232190C22D50023BB98 /* Git testTests */,
 				AA61C20C190C22D50023BB98 /* Frameworks */,
@@ -253,6 +258,7 @@
 				AA61C224190C22D50023BB98 /* MMNViewController.m in Sources */,
 				AA61C21A190C22D50023BB98 /* main.m in Sources */,
 				AA61C21E190C22D50023BB98 /* MMNAppDelegate.m in Sources */,
+				AA61C244190C27A70023BB98 /* MMNGitTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
